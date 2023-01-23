@@ -57,7 +57,7 @@ external_stylesheets = [
 
 # Creation d'un instance de l'application et la relie a la feuille de style et Bootstrap
 app = Dash("Forme Scolaire Analyse", external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 # Titre de l'application
 app.title = "Forme Scolaire Analyse"
 
